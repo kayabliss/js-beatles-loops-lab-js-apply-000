@@ -31,11 +31,12 @@ function johnLennonFacts(facts){
 }
   
   
-function iLoveTheBeatles(num){
+function iLoveTheBeatles(num,n){
   var arr = [];
   var i = 0;
   do {
     arr.push( "I love the Beatles!");
+    arr = arr.concat(num)
     i++
      return arr;
   } while (i < 15);
