@@ -39,7 +39,7 @@ function iLoveTheBeatles(num,n){
     arr = arr.concat(num)
     i++
      return arr;
-  } while (i < 15);
+  } while (i < n);
     return num;  
 }  
 
