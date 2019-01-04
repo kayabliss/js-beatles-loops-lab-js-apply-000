@@ -31,16 +31,15 @@ function johnLennonFacts(facts){
 }
   
   
-function iLoveTheBeatles(num,n){
+function iLoveTheBeatles(num){
   var arr = [];
   var i = 0;
   do {
-    arr.push( "I love the Beatles!");
-    arr = arr.concat(num)
-    i++
-     return arr;
-  } while (i < n);
-    return num;  
+    arr = arr.push( "I love the Beatles!");
+    
+    i++;
+  } while (i < num);
+    return arr;  
 }  
 
 
